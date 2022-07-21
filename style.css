@@ -204,12 +204,11 @@ header {
     width: 40px;
 }
 
-#uni-subtitle {
+#uni-subtitle, #uni-years {
     font-weight: lighter;
 }
 
 #uni-years {
-    font-weight: lighter;
     color: gray;
 }
 
