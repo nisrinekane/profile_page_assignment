@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container flexed">
+            <h2>Profile</h2>
+            <ol class="nav-list">
+                <li>Home</li>
+                <li>My Profile</li>
+                <li>Find Connections</li>
+            </ol>
+            <button class="logout-button">Sign Out</button>
+        </div>
+    </nav>
+
+    <div class="main-page container">
+        <div class="profile-section">
+            <header>
+                <img id="profile-picture" src="assets/profile_picture.jpeg" alt="Profile Picture">
+            </header>
+
+            <div class="profile-picture-section">
+                <!--background image area-->
+            </div>
+
+            <div class="textarea">
+                <h2>Anne Wojcicki</h2>
+                <p>23andMe Co-Founder and CEO</p>
+                <p class="description"><i class="fa-solid fa-location-dot"></i> Mountain View, California. 500+
+                    connections</p>
+                <p class="settings-text"><i class="fa-solid fa-gear"></i>edit profile</p>
+            </div>
+        </div>
+
+        <div class="connections-section">
+            <div class="connection-header">
+                <button class="notification-button">3</button>
+                <p class="connections-title">Connection Requests</p>
+            </div>
+            <div class="connection-requests">
+                <img class="user-pic" src="assets/avatar.webp" alt="Generic Avatar">
+                <p>Todd E</p>
+                <i class="fa-solid fa-circle-check yes-check"></i>
+                <i class="fa-solid fa-circle-xmark no-check"></i>
+            </div>
+            <div class="connection-requests">
+
+                <img class="user-pic" src="assets/avatar2.webp" alt="Woman Avatar">
+                <p>Finn K</p>
+                <i class="fa-solid fa-circle-check yes-check"></i>
+                <i class="fa-solid fa-circle-xmark no-check"></i>
+
+            </div>
+            <div class="connection-requests">
+
+                <img class="user-pic" src="assets/avatar3.png" alt="Woman Avatar">
+                <p>Sara C</p>
+                <i class="fa-solid fa-circle-check yes-check"></i>
+                <i class="fa-solid fa-circle-xmark no-check"></i>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="other-content">
+
+        <div class="education-section">
+            <div class="edu-header">
+                <h3 class="education-title">Education</h3>
+            </div>
+            <div class="edu-text-section">
+                <img class="uni-logo" src="assets/univeristy-logo.webp" alt="Yale University Logo">
+                <div class="edu-text">
+                    <h3 id="uni-title"><a href="">Yale University</a></h3>
+                    <h4 id="uni-subtitle">BS Biology</h4>
+                    <h5 id="uni-years">1992 - 1996</h5>
+                </div>
+            </div>
+            <div class="edu-text-section">
+                <img class="uni-logo" src="assets/school-logo.png" alt="High School Logo">
+                <div class="edu-text">
+                    <h3 id="uni-title"><a href="assets/school-logo.png">Henry Gunn High School</a></h3>
+                    <h4 id="uni-subtitle">High School Diploma</h4>
+                    <h5 id="uni-years">19988 - 1992</h5>
+                </div>
+            </div>
+        </div>
+
+        <div class="connection-area">
+            <div class="connection-area-header">
+                <p><button class="connections-button">500+</button> Your Connections</p>
+            </div>
+            <div class="people-connected">
+                <div class="connection-requests">
+                    <img class="user-pic" src="assets/contact1.jpeg" alt="Generic Avatar">
+                    <p>Marissa M</p>
+                </div>
+                <div class="connection-requests">
+
+                    <img class="user-pic" src="assets/contact2.png" alt="Woman Avatar">
+                    <p>Julia C</p>
+                </div>
+                <div class="connection-requests">
+                    <img class="user-pic" src="assets/contact3.webp" alt="Man Avatar">
+                    <p>Joaquin D</p>
+                </div>
+                <div class="view-more">
+                    <p class="view-more-text">View More</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

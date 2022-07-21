@@ -1,0 +1,275 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* utility class */
+.flexed {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.1em 1em;
+    margin-bottom: 3em;
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    padding-top: 0.5em;
+}
+
+.logout-button {
+    margin: 1.3em;
+    padding: 0.7em;
+    background-color: #00CBFE;
+    border: 1px #fff solid;
+    color: #fff;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+header {
+    background-image: url('assets/linkedin_wallpaper.svg');
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+.main-page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-section, .connections-section {
+    flex-direction: column;
+    border: 2px solid #FAFAFA;
+    border-radius: 15px;
+}
+
+.profile-section {
+    flex: 4;
+    height: fit-content;
+}
+
+.connections-section {
+    display:flex;
+    flex: 2;
+    margin-left: 3em;
+    height: fit-content;
+    border-radius: 16px;
+}
+
+/*.profile-picture-section {
+    display: flex;
+}*/
+
+#profile-picture {
+    position: relative;
+    height: 120px;
+    top: 60px;
+    border-radius: 50%;
+    border: 3px #fff solid;
+    margin-left: 20px;
+    box-shadow: 3px 9px 3px #F5F5F5;
+}
+
+.wallpaper {
+    width: 30em;
+}
+
+.description {
+    color: #BEBEBE;
+    margin-bottom: 1px;
+    margin-top: 25px;
+    padding-bottom: 2px;
+}
+
+.textarea {
+    padding: 4em 1em 1.5em 1em;
+}
+
+.settings-text {
+    color: #09A9EB;
+    margin-top: 50px;
+    text-decoration: underline;
+}
+
+.fa-gear {
+    margin-right: 10px;
+}
+
+.connection-header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 20px;
+    background-color: #F5F5F5;
+    margin-bottom: 10px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.notification-button {
+    background-color: #FA3e3e;
+    border: solid 1px #fff;
+    border-radius: 50%;
+    padding: 0.5em;
+    width: 2.5em;
+    color: #fff;
+    font-size: 0.5;
+    font-weight: bolder;
+}
+
+.connections-title {
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+
+.user-pic {
+    border-radius: 50%;
+    width: 3em;
+    border: 2px solid #000;
+}
+
+
+.connection-requests {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+    margin: 15px 5px 10px 10px;;
+}
+
+.yes-check, .no-check {
+    padding-top: 15px;
+}
+
+.yes-check {
+    margin-left: 100px;
+    color: #34B233;
+    font-size: 1.5em;
+}
+
+.no-check {
+    color: #FA3E3E;
+    font-size: 1.5em;
+}
+
+
+
+.other-content {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 1000px;
+    margin: 30px auto;
+}
+
+
+.education-section {
+    flex: 4;
+    border: 3px solid #F5F5F5;
+    height: fit-content;
+    border-radius: 14px;
+    position: relative;
+    top: -40px;
+}
+
+.edu-text-section {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 25px;
+}
+
+.edu-text {
+    line-height: 0.1px;
+    margin-top: 15px;
+    margin-left: 35px;
+}
+
+.uni-logo {
+    width: 40px;
+}
+
+#uni-subtitle {
+    font-weight: lighter;
+}
+
+#uni-years {
+    font-weight: lighter;
+    color: gray;
+}
+
+.edu-header {
+    background-color: #F5F5F5;
+    padding: 0.5em;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+}
+
+
+.education-title {
+    text-align: left;
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.connection-area {
+    flex-direction: column;
+    flex: 2;
+    border: 3px solid #F5F5F5;
+    position: relative;
+    top: -100px;
+    margin-left: 48px;
+    border-radius: 15px;
+} 
+
+.connection-area-header {
+    background: #F5F5F5;
+    text-align: center;
+    padding: 2px;
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
+.connections-button {
+    margin-right: 10px;
+    background-color: #FA3E3E;
+    color: #fff;
+    padding: 0.6em;
+    border: 2px solid #FA3E3E;
+    border-radius: 50%;
+    font-weight: bolder;
+}
+
+
+.view-more {
+    margin-top: 25px;
+    text-align: center;
+    border-top: 2px solid #F5F5F5;
+}
+
+.view-more-text {
+    color: #00CBFE;
+    text-decoration: underline;
+}
+
